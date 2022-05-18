@@ -10,7 +10,9 @@ namespace task.Services
     {
         
         List<Order> _orders=new List<Order>();
+        List<Product> _product = GetCurrentProducts();
         public List<Order> Orders => _orders;
+        public List<Product> Products => _product;
 
         public void ShowAllOrders()
         {
@@ -21,37 +23,30 @@ namespace task.Services
             }
             foreach (Order item in _orders)
             {
-                Console.WriteLine("Total price: " + item.TotalPrice+"DATE: "+item.Date);
+                Console.WriteLine("Total price: " + item.TotalPrice+", Date: "+item.Date.Date+"\n");
                 foreach (Product pr in item.Products)
                 {
                     Console.WriteLine(pr);
                 }
+                Console.Write("----------------------------------------------------");
             }
 
         }
 
         public void ShowCurrentProducts()
         {
-            if (GetCurrentProducts().Count == 0)
-            {
-                Console.WriteLine("there is not product.");
-                return;
-            }
-
-            foreach (Product item in GetCurrentProducts())
+            foreach (Product item in _product)
             {
                 Console.WriteLine(item);
             }
         }
 
-        public void ToOrder(List<Product> products, Order order)
-        {
-            order.Products = products;
+        public void ToOrder(Order order)
+        {       
             _orders.Add(order);
-
         }
 
-        public List<Product> GetCurrentProducts()
+        public static List<Product> GetCurrentProducts()
         {
             List<Product> currentProducts = new List<Product>();
             Product milk = new Product("milk", 15,12);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\taskkkk\\homework-17.05.2022\\task\\task.csproj": {}
+    "C:\\Users\\User\\Desktop\\taskk\\homework-17.05.2022\\task\\task.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\taskkkk\\homework-17.05.2022\\task\\task.csproj": {
+    "C:\\Users\\User\\Desktop\\taskk\\homework-17.05.2022\\task\\task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\taskkkk\\homework-17.05.2022\\task\\task.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\taskk\\homework-17.05.2022\\task\\task.csproj",
         "projectName": "task",
-        "projectPath": "C:\\Users\\User\\Desktop\\taskkkk\\homework-17.05.2022\\task\\task.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\taskk\\homework-17.05.2022\\task\\task.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\taskkkk\\homework-17.05.2022\\task\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\taskk\\homework-17.05.2022\\task\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

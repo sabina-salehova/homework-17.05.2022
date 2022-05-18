@@ -28,7 +28,7 @@ namespace task.Models
 
         public override string ToString()
         {
-            return "ID: " + Id + "NAME: " + Name + "PRICE: " + Price + "COUNT: " + ProductCount;
+            return "ID: " + Id + ", Name: " + Name + ", Price: " + Price + ", Count: " + ProductCount;
         }
 
     }
