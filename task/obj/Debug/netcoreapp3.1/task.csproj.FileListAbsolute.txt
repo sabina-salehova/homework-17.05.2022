@@ -1,0 +1,13 @@
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\bin\Debug\netcoreapp3.1\task.exe
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\bin\Debug\netcoreapp3.1\task.deps.json
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\bin\Debug\netcoreapp3.1\task.runtimeconfig.json
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\bin\Debug\netcoreapp3.1\task.runtimeconfig.dev.json
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\bin\Debug\netcoreapp3.1\task.dll
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\bin\Debug\netcoreapp3.1\task.pdb
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.csproj.AssemblyReference.cache
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.AssemblyInfoInputs.cache
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.AssemblyInfo.cs
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.csproj.CoreCompileInputs.cache
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.dll
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.pdb
+C:\Users\Sabina\Desktop\homework 17.05.2022\task\task\obj\Debug\netcoreapp3.1\task.genruntimeconfig.cache
