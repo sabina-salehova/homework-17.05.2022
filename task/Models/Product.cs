@@ -6,21 +6,29 @@ namespace task.Models
 {
     class Product
     {
-        static uint _id;
-        public static uint Id { get => _id; } 
+        static int _count;
+        public static int Count { get => _count; }
+        int _id;
+        public int Id { get => _id; }
         public string Name;
         public double Price;
         public int ProductCount;
         static Product()
         {
-            _id = default(int);  
+            _count = default(int);  
         }
         public Product(string name, double price, int productCount)
         {
-            _id++;
+            _count++;
+            _id = _count;
             Name = name;
             Price = price;
             ProductCount = productCount;
+        }
+
+        public override string ToString()
+        {
+            return "ID: " + Id + "NAME: " + Name + "PRICE: " + Price + "COUNT: " + ProductCount;
         }
 
     }

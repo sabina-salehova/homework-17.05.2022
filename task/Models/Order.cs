@@ -28,6 +28,6 @@ namespace task.Models
                 TotalPrice -= 0.1 * TotalPrice;
 
             return TotalPrice;
-        }
+        }        
     }
 }

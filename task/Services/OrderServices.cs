@@ -8,25 +8,47 @@ namespace task.Services
 {
     class OrderServices : IOrderServices
     {
-
-        public List<Product> CurrentProducts => GetCurrentProducts();
-
+        
         List<Order> _orders=new List<Order>();
         public List<Order> Orders => _orders;
 
         public void ShowAllOrders()
         {
-           
+            if (_orders.Count == 0)
+            {
+                Console.WriteLine("Not order yet.");
+                return;
+            }
+            foreach (Order item in _orders)
+            {
+                Console.WriteLine("Total price: " + item.TotalPrice+"DATE: "+item.Date);
+                foreach (Product pr in item.Products)
+                {
+                    Console.WriteLine(pr);
+                }
+            }
+
         }
 
         public void ShowCurrentProducts()
         {
-            
+            if (GetCurrentProducts().Count == 0)
+            {
+                Console.WriteLine("there is not product.");
+                return;
+            }
+
+            foreach (Product item in GetCurrentProducts())
+            {
+                Console.WriteLine(item);
+            }
         }
 
-        public void ToOrder()
+        public void ToOrder(List<Product> products, Order order)
         {
-            
+            order.Products = products;
+            _orders.Add(order);
+
         }
 
         public List<Product> GetCurrentProducts()
